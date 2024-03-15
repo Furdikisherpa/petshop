@@ -1,0 +1,210 @@
+body{
+    background-color: rgb(27, 218, 218);
+}
+
+.content{
+    height: 450px;
+  width: 1366px;
+  background-color: aliceblue;
+  position: absolute;
+  margin-top: 2px;
+  margin-left: 0px;
+ 
+  
+}
+
+.abt h2{
+  font-family: cursive;
+  margin-left: 150px;
+}
+
+.abt p{
+  margin-left: 150px; 
+  margin-right: 600px; 
+  font-family:cursive; 
+  font-size:17px;
+}
+
+.abt img{
+  position: absolute;
+  width: 300px;
+  margin-top: 70px;
+  margin-left: 900px;
+}
+
+.food h2{
+  margin-top: 50px;
+  text-align: center;
+  text-decoration:underline;
+}
+
+.location h2{
+  text-decoration: underline;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 900px;
+}
+
+.location p{
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 940px;
+ width: 100px;
+}
+.location img{
+  width: 250px;
+  margin-top: 900px;
+  margin-left: 300px;
+  position: absolute;
+}
+
+/* Header */
+.space{
+    margin-top: 65px;
+}
+
+.header {
+  height: 533px;
+  width: 1358px;
+  }
+
+.header a{
+    text-decoration: none;
+    color: rgb(67, 65, 65);
+    margin-left: 35px;
+    font-size:larger;
+    font-family:cursive;
+}
+
+.btn_cart{
+  padding: 10px 20px 10px 20px;
+  background-color: gold;
+  position: absolute;
+  margin-left: 645px;
+  border-radius: 5px;
+  border-bottom: 20px;
+  border-top: 20px;
+  border-left: 20px;
+  border-right: 20px;
+  cursor: pointer;
+}
+
+.btn_shop{
+    color: rgb(67, 65, 65) ;
+    background-color: gold;
+    font-family:cursive;
+    font-size: 19px;
+    border-bottom: 20px;
+    border-top: 20px;
+    border-left: 20px;
+    border-right: 20px;
+    border-radius: 5px;
+    margin-left: 682px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+.btn_signup{
+    color: rgb(67, 65, 65);
+  background-color: gold;
+  font-family: cursive;
+  font-size: 19px;
+  border-bottom: 20px;
+  border-top: 20px;
+  border-left: 20px;
+  border-right: 20px;
+  border-radius: 5px;
+  margin-left: 884px;
+  margin-top: 0px;
+  position: absolute;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    margin-top: -727px;
+    margin-left: 464px;
+    
+}
+.btn_profile{
+    color: rgb(67, 65, 65);
+  background-color: gold;
+  font-family: cursive;
+  font-size: 19px;
+  border-bottom: 20px;
+  border-top: 20px;
+  border-left: 20px;
+  border-right: 20px;
+  border-radius: 5px;
+  margin-left: 884px;
+  margin-top: 0px;
+  position: absolute;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+}
+
+.index_image img{
+  position: absolute;
+  margin-left: 300px;
+  margin-top: -450px;
+  transition: ease-in 5s;
+}
+
+.index_image{
+  position: relative;
+  animation: mymove 5s;
+  animation-fill-mode: forwards;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {left: -400px;}
+  to {left: 0px;}
+}
+
+/* Header */
+
+
+/* Footer */
+.footer_img{
+    z-index: 1200px;
+  position: absolute;
+  
+ 
+}
+
+.social_media{
+    z-index: 1000px;
+    margin-top: 1200px; 
+    margin-left: 1244px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.Internallink{
+  margin-left: 1173px;
+}
+
+.Internallink a{
+  
+    text-decoration: none;
+    color: rgb(67, 65, 65);
+    
+    font-family: cursive;
+}
+
+.cart{
+  position: absolute;
+  z-index: 1000;
+}
+
+
+
+
+/* Footer */
